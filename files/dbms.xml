@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Databases>
+                
+    
+    
+    <Database databaseName="ana"/>
+                
+    
+    
+    <Database databaseName="schoolTeacher"/>
+                
+    
+    
+    <Database databaseName="Maria"/>
+                
+    
+    
+    <Database databaseName="db1="/>
+                
+    
+    
+    <Database databaseName="db2="/>
+                
+    
+    
+    <Database databaseName="d3">
+                
+        <Table tableName="table1">
+                        
+            <PrimaryKey>
+                                
+                <pkAttribute>id</pkAttribute>
+                            
+            </PrimaryKey>
+                        
+            <Structure/>
+                    
+        </Table>
+            
+        <Table tableName="table2">
+            <PrimaryKey>
+                <pkAttribute>id</pkAttribute>
+            </PrimaryKey>
+            <Structure/>
+        </Table>
+    </Database>
+                
+    
+    
+    <Database databaseName="db3">
+                        
+        
+        <Table tableName="table1">
+                                    
+            
+            <PrimaryKey>
+                                                
+                
+                <pkAttribute>id</pkAttribute>
+                                                
+                
+                <pkAttribute>name</pkAttribute>
+                                            
+            
+            </PrimaryKey>
+                                    
+            
+            <Structure>
+                                                
+                
+                <Attribute attributeName="id" type="int"/>
+                                                
+                
+                <Attribute attributeName="name" type="varchar(10)"/>
+                                            
+            
+            </Structure>
+                                
+        
+        </Table>
+                        
+        
+        <Table tableName="table2">
+                                    
+            
+            <PrimaryKey>
+                                                
+                
+                <pkAttribute>id</pkAttribute>
+                                                
+                
+                <pkAttribute>name</pkAttribute>
+                                            
+            
+            </PrimaryKey>
+                                    
+            
+            <Structure>
+                                                
+                
+                <Attribute attributeName="id" type="int"/>
+                                                
+                
+                <Attribute attributeName="name" type="varchar(10)"/>
+                                            
+            
+            </Structure>
+                                
+        
+        </Table>
+                    
+    
+    </Database>
+            
+
+
+</Databases>
